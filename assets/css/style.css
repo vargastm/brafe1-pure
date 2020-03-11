@@ -358,3 +358,50 @@ body {
   margin: 0 10px;
   display: block;
 }
+
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+  .about-container, .products-container, .locations, .newsletter-container {
+    max-width: 720px;
+  }
+  .about-item, .location-item > div, .location-item img, .newsletter-information, .newsletter form, .newsletter input {
+    width: 340px;
+  }
+  .products-item {
+    width: 220px;
+  }
+}
+
+@media only screen and (max-width: 739px) {
+  .menu-nav {
+    float: none;
+    clear: both;
+    text-align: center;
+  }
+
+  .menu-logo {
+    float: none;
+    margin: 0 auto;
+    max-width: 135px;
+  }
+  
+  .introduction {
+    padding: 60px 0;
+  }
+
+  .about-container, .products-container, .locations, .newsletter-container, .footer-container {
+    max-width: 300px;
+  }
+  .about-item, .location-item > div, .location-item img, .newsletter-information, .newsletter form, .newsletter input {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .products-item  {
+    margin: 0 auto 20px auto;
+  }
+
+  .footer img, .footer p {
+    float: none;
+    margin: 10px 0;
+  }
+}
